@@ -1,0 +1,123 @@
+dataset_dir: data/awal/
+int32_columns:
+- age
+- balance
+- day
+- duration
+- campaign
+- pdays
+- previous
+label: deposit
+label_deposit:
+- "no"
+- "yes"
+label_deposit_new:
+- "no"
+- "yes"
+missing_value_pdays: 0
+missing_value_balance: 630
+object_columns:
+- job
+- marital
+- education
+- default
+- housing
+- loan
+- contact
+- month
+- poutcome
+- deposit
+predictors:
+- age
+- job
+- marital
+- education
+- default
+- balance
+- housing
+- loan
+- contact
+- day
+- month
+- duration
+- campaign
+- pdays
+- previous
+- poutcome
+range_age:
+- 18
+- 95
+range_balance:
+- -1
+- 81204
+range_day:
+- 1
+- 31
+range_duration:
+- 2
+- 3881
+range_campaign:
+- 1
+- 63
+range_pdays:
+- -1
+- 854
+range_previous:
+- 0
+- 58
+range_job:
+- admin.
+- technician
+- services
+- management
+- retired
+- blue-collar
+- unemployed
+- entrepreneur
+- housemaid
+- unknown
+- self-employed
+- student
+range_marital:
+- married
+- single
+- divorced
+range_education:
+- secondary
+- tertiary
+- primary
+- unknown
+range_default:
+- "no"
+- "yes"
+range_housing:
+- "no"
+- "yes"
+range_loan:
+- "no"
+- "yes"
+range_contact:
+- unknown
+- cellular
+- telephone
+range_month:
+- jan
+- feb
+- mar
+- apr
+- may
+- jun
+- jul
+- aug
+- sep
+- oct
+- nov
+- dec
+range_poutcome:
+- unknown
+- other
+- failure
+- success
+range_deposit:
+- "yes"
+- "no"
